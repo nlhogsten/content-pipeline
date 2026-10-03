@@ -1,0 +1,261 @@
+{
+ "version": "v1",
+ "built": "2026-10-03",
+ "license_policy": "Every track is CC-BY or CC-BY-SA as declared on its SoundCloud source page (verified via API license field). All allow commercial/social-media use with attribution. Attribution strings included per track \u2014 paste into reel captions.",
+ "lanes": {
+  "dreamy-digicore": "Dreamy hyperpop-adjacent electronica \u2014 transformation reveals, demos, emotional beats",
+  "jersey-bounce": "High-energy dance/bounce \u2014 hooks, before/after flips, high-energy clips",
+  "deep-japanese-house": "Warm deep/leftfield house \u2014 artboard recordings, calm builds, montages",
+  "dusty-lofi": "Dusty lo-fi instrumental \u2014 voiceover beds, journey episodes, behind-the-scenes",
+  "wonky-bass": "Bass music / dubstep / future bass \u2014 edgy transitions, vandal energy"
+ },
+ "tracks": [
+  {
+   "file": "dreamy-digicore/naanmoons-rainy-day.mp3",
+   "lane": "dreamy-digicore",
+   "title": "Rainy Day",
+   "artist": "Naan Moons",
+   "mood": [
+    "dreamy",
+    "downtempo",
+    "bittersweet",
+    "electronic"
+   ],
+   "bpm_estimate": 110,
+   "source_url": "https://soundcloud.com/naanmoons/rainy-day-free-download-creative-commons-attribution-copyleft",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 141,
+   "reel_cut": "cuts/naanmoons-rainy-day-cut25.mp3",
+   "attribution": "\"Rainy Day\" by Naan Moons \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "dreamy-digicore/alveek-good-morning-sky.mp3",
+   "lane": "dreamy-digicore",
+   "title": "Good Morning, Sky",
+   "artist": "Alveek",
+   "mood": [
+    "dreamy",
+    "uplifting",
+    "soft-synth",
+    "morning"
+   ],
+   "bpm_estimate": 120,
+   "source_url": "https://soundcloud.com/alveek/good-morning-sky",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 186,
+   "reel_cut": "cuts/alveek-good-morning-sky-cut25.mp3",
+   "attribution": "\"Good Morning, Sky\" by Alveek \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "dreamy-digicore/elexive-sheriff-argofox.mp3",
+   "lane": "dreamy-digicore",
+   "title": "Sheriff",
+   "artist": "Elexive (Argofox)",
+   "mood": [
+    "dreamy",
+    "electronic",
+    "euphoric",
+    "glossy"
+   ],
+   "bpm_estimate": 128,
+   "source_url": "https://soundcloud.com/argofox/elexive-sheriff",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 219,
+   "reel_cut": "cuts/elexive-sheriff-argofox-cut25.mp3",
+   "attribution": "\"Sheriff\" by Elexive (Argofox) \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "jersey-bounce/kosmorider-the-reboot.mp3",
+   "lane": "jersey-bounce",
+   "title": "The Reboot",
+   "artist": "Kosmorider",
+   "mood": [
+    "bouncy",
+    "dance",
+    "playful",
+    "high-energy"
+   ],
+   "bpm_estimate": 128,
+   "source_url": "https://soundcloud.com/kosmorider/the-reboot-royalty-free-music-no-copyright",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 215,
+   "reel_cut": "cuts/kosmorider-the-reboot-cut25.mp3",
+   "attribution": "\"The Reboot\" by Kosmorider \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "jersey-bounce/hothammusic-dance-tonight.mp3",
+   "lane": "jersey-bounce",
+   "title": "Dance Tonight",
+   "artist": "HothamMusic",
+   "mood": [
+    "bouncy",
+    "dance",
+    "bright",
+    "hook-ready"
+   ],
+   "bpm_estimate": 124,
+   "source_url": "https://soundcloud.com/hothammusic/dance-tonight",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 164,
+   "reel_cut": "cuts/hothammusic-dance-tonight-cut25.mp3",
+   "attribution": "\"Dance Tonight\" by HothamMusic \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "deep-japanese-house/naanmoons-when-the-sun-goes-down.mp3",
+   "lane": "deep-japanese-house",
+   "title": "When The Sun Goes Down",
+   "artist": "Naan Moons",
+   "mood": [
+    "warm",
+    "leftfield-house",
+    "sunset",
+    "sophisticated"
+   ],
+   "bpm_estimate": 122,
+   "source_url": "https://soundcloud.com/naanmoons/when-the-sun-goes-down-deep-house-free-download-creative-commons-attribution",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 378,
+   "reel_cut": "cuts/naanmoons-when-the-sun-goes-down-cut25.mp3",
+   "attribution": "\"When The Sun Goes Down\" by Naan Moons \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "deep-japanese-house/unwritten-stories-come-with-me.mp3",
+   "lane": "deep-japanese-house",
+   "title": "Come With Me",
+   "artist": "Unwritten Stories",
+   "mood": [
+    "smooth",
+    "deep-house",
+    "groovy",
+    "warm"
+   ],
+   "bpm_estimate": 122,
+   "source_url": "https://soundcloud.com/unwritten-stories/come-with-me-creative-commons-free-deep-house-music",
+   "license": "CC-BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "duration_s": 202,
+   "reel_cut": "cuts/unwritten-stories-come-with-me-cut25.mp3",
+   "attribution": "\"Come With Me\" by Unwritten Stories \u2014 CC-BY-SA (https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+   "file": "dusty-lofi/nottyvondutch-lofi-chill.mp3",
+   "lane": "dusty-lofi",
+   "title": "Lofi & Chill",
+   "artist": "NottyVonDutch",
+   "mood": [
+    "mellow",
+    "dusty",
+    "warm",
+    "voiceover-bed"
+   ],
+   "bpm_estimate": 80,
+   "source_url": "https://soundcloud.com/nottyvondutch/lofi-chill",
+   "license": "CC-BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "duration_s": 217,
+   "reel_cut": "cuts/nottyvondutch-lofi-chill-cut25.mp3",
+   "attribution": "\"Lofi & Chill\" by NottyVonDutch \u2014 CC-BY-SA (https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+   "file": "dusty-lofi/nottyvondutch-lofi-swagger.mp3",
+   "lane": "dusty-lofi",
+   "title": "Lofi & Swagger",
+   "artist": "NottyVonDutch",
+   "mood": [
+    "mellow",
+    "confident",
+    "dusty",
+    "behind-the-scenes"
+   ],
+   "bpm_estimate": 85,
+   "source_url": "https://soundcloud.com/nottyvondutch/lofi-swagger",
+   "license": "CC-BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "duration_s": 200,
+   "reel_cut": "cuts/nottyvondutch-lofi-swagger-cut25.mp3",
+   "attribution": "\"Lofi & Swagger\" by NottyVonDutch \u2014 CC-BY-SA (https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+   "file": "dusty-lofi/nottyvondutch-lofi-love.mp3",
+   "lane": "dusty-lofi",
+   "title": "Lofi & Love",
+   "artist": "NottyVonDutch",
+   "mood": [
+    "mellow",
+    "tender",
+    "warm",
+    "journey-episodes"
+   ],
+   "bpm_estimate": 80,
+   "source_url": "https://soundcloud.com/nottyvondutch/lofi-love-royalty-free-download",
+   "license": "CC-BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "duration_s": 200,
+   "reel_cut": "cuts/nottyvondutch-lofi-love-cut25.mp3",
+   "attribution": "\"Lofi & Love\" by NottyVonDutch \u2014 CC-BY-SA (https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+   "file": "wonky-bass/unwritten-stories-candy.mp3",
+   "lane": "wonky-bass",
+   "title": "Candy",
+   "artist": "Unwritten Stories",
+   "mood": [
+    "future-bass",
+    "bright",
+    "edgy",
+    "playful-dark"
+   ],
+   "bpm_estimate": 150,
+   "source_url": "https://soundcloud.com/unwritten-stories/candy-creative-commons-free-future-bass-music",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 236,
+   "reel_cut": "cuts/unwritten-stories-candy-cut25.mp3",
+   "attribution": "\"Candy\" by Unwritten Stories \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "wonky-bass/naanmoons-bipolar-bass.mp3",
+   "lane": "wonky-bass",
+   "title": "Bipolar Bass",
+   "artist": "Naan Moons",
+   "mood": [
+    "leftfield-bass",
+    "dark",
+    "weird",
+    "vandal-energy"
+   ],
+   "bpm_estimate": 140,
+   "source_url": "https://soundcloud.com/naanmoons/bipolar-bass-free-download",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 233,
+   "reel_cut": "cuts/naanmoons-bipolar-bass-cut25.mp3",
+   "attribution": "\"Bipolar Bass\" by Naan Moons \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  },
+  {
+   "file": "wonky-bass/wontolla-dragonstrike.mp3",
+   "lane": "wonky-bass",
+   "title": "Dragonstrike",
+   "artist": "Wontolla",
+   "mood": [
+    "dubstep",
+    "aggressive",
+    "dark",
+    "transitions"
+   ],
+   "bpm_estimate": 140,
+   "source_url": "https://soundcloud.com/dagontletsplay/wontolla-dragonstrike-free-dubstep-music-for-monetize",
+   "license": "CC-BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "duration_s": 279,
+   "reel_cut": "cuts/wontolla-dragonstrike-cut25.mp3",
+   "attribution": "\"Dragonstrike\" by Wontolla \u2014 CC-BY (https://creativecommons.org/licenses/by/4.0/)"
+  }
+ ]
+}

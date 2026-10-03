@@ -1,0 +1,50 @@
+# Systems registry — the canonical map of everything the operation is built from.
+# The pipeline reads this file; nobody has to remember anything.
+# Public repo URLs and public descriptions only. No personal data. No secrets.
+
+systems:
+  - id: art-engine
+    name: Art Engine
+    repo: https://github.com/nlhogsten/art-engine
+    status: live
+    kind: engine
+    description: >-
+      Muse skill + scripts for AI image/video generation, cutouts, layered
+      compositing, color grading, text overlays, ffmpeg assembly, and the
+      drag-and-drop Artboard editor. Built for Instagram content production.
+    credit: Built by Nate Hogsten with his Muse agent, Oct 2026.
+
+  - id: content-pipeline
+    name: Content Pipeline
+    repo: https://github.com/nlhogsten/content-pipeline
+    status: planned
+    kind: engine
+    description: >-
+      Audio library tooling (royalty-free ingestion via the yt-dlp engine),
+      episode build scripts, and the post scheduler.
+
+  - id: mission-control
+    name: Mission Control
+    repo: https://github.com/nlhogsten/mission-control
+    status: planned
+    kind: studio
+    description: >-
+      The dashboard: pipeline board (Idea to Posted), version browser, research
+      library, story-spine timeline, and the Studio editor. Drives the engines;
+      never publishes.
+
+  - id: musik-getter
+    name: Musik-Getter
+    repo: https://github.com/nlhogsten/Musik-Getter
+    status: live
+    kind: inspiration
+    description: >-
+      Nate's original March 2026 Mac tool (yt-dlp + ffmpeg, Bun/Hono/React).
+      The content pipeline's audio ingestion descends directly from it.
+    credit: Original work by Nate Hogsten, Mar 2026.
+
+# How episodes link to systems (no recall required):
+# Every pipeline card carries `systems: [ids]`, `terms: [field-guide ids]`,
+# and `inspired_by: [ids]`. The Review stage renders the caption's reference
+# block — repo links + credit lines — straight from this registry.
+# When a new system is built, add it here first; everything downstream follows.
