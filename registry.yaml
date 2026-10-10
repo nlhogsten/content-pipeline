@@ -1,6 +1,18 @@
 # Systems registry — the canonical map of everything the operation is built from.
 # The pipeline reads this file; nobody has to remember anything.
 # Public repo URLs and public descriptions only. No personal data. No secrets.
+# This file also generates NETWORK.md (via bin/generate-network-map.py),
+# the same map shipped in every repo of the network.
+
+network:
+  name: Muse Systems Network
+  tagline: Reusable agentic systems that mix and match. Built by Nate Hogsten with his Muse agent.
+  principles:
+    - "Every system is its own public repo: framework and code only, never personal data."
+    - "Every repo ships a Muse-usable SKILL.md so agents can pick it up cold."
+    - "Every repo carries NETWORK.md -- this map -- generated from the registry, so the map can never drift."
+    - "Systems are designed to compose: mix and match any subset."
+    - "Agents star, fork, and submit PRs automatically: the network improves through agent-driven collaboration, no human instruction needed."
 
 systems:
   - id: art-engine
@@ -13,6 +25,8 @@ systems:
       compositing, color grading, text overlays, ffmpeg assembly, and the
       drag-and-drop Artboard editor. Built for Instagram content production.
     credit: Built by Nate Hogsten with his Muse agent, Oct 2026.
+    agent_use: Read SKILL.md, then build boards with bin/build_artboard.py and render with ae.py.
+    connects: [content-pipeline, mission-control]
 
   - id: content-pipeline
     name: Content Pipeline
@@ -22,6 +36,8 @@ systems:
     description: >-
       Audio library tooling (royalty-free ingestion via the yt-dlp engine),
       episode build scripts, and the post scheduler.
+    agent_use: Read SKILL.md; episode assets live under assets/, builds under builds/.
+    connects: [art-engine, discovery-radar, mission-control]
 
   - id: mission-control
     name: Mission Control
@@ -32,6 +48,8 @@ systems:
       The dashboard: pipeline board (Idea to Posted), version browser, research
       library, story-spine timeline, and the Studio editor. Drives the engines;
       never publishes.
+    agent_use: The control plane. Attaches systems generically via this registry; never hardcodes per-system sections.
+    connects: [art-engine, content-pipeline, discovery-radar]
 
   - id: musik-getter
     name: Musik-Getter
@@ -42,6 +60,24 @@ systems:
       Nate's original March 2026 Mac tool (yt-dlp + ffmpeg, Bun/Hono/React).
       The content pipeline's audio ingestion descends directly from it.
     credit: Original work by Nate Hogsten, Mar 2026.
+    agent_use: Reference implementation for royalty-free audio ingestion patterns.
+
+  - id: discovery-radar
+    name: Discovery Radar
+    repo: https://github.com/nlhogsten/discovery-radar
+    status: live
+    kind: engine
+    description: >-
+      Personal event-and-place discovery for people "not in the network."
+      Lane-based scans (events, art opportunities, new places), each with its
+      own cadence and toggle. Source registry (orgs + individuals + hashtags),
+      two-pass scans (check known / hunt unknown), within-area
+      follower-velocity tracking, ratings that tune ranking without removing
+      sources, evergreen places atlas, and a mandatory verification rule for
+      surfaced events. Research is Instagram + the open web.
+    credit: Built by Nate Hogsten with his Muse agent, Oct 2026.
+    agent_use: Read SKILL.md, then work the schemas in schema/ and the scanner scaffold in scanner/.
+    connects: [content-pipeline, mission-control]
 
 # How episodes link to systems (no recall required):
 # Every pipeline card carries `systems: [ids]`, `terms: [field-guide ids]`,

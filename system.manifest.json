@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "name": "Content Pipeline",
+  "kind": "engine",
+  "status": "planned",
+  "description": "Episode production, licensed audio-library work, assembly, review, and eventual scheduling.",
+  "workSurfaces": [
+    {
+      "id": "episodes",
+      "label": "Episode stack",
+      "kind": "episodes",
+      "description": "Episode briefs, production stages, review versions, and feedback.",
+      "materialKinds": []
+    },
+    {
+      "id": "pipeline-materials",
+      "label": "Pipeline materials",
+      "kind": "materials",
+      "description": "Collected references, audio, and output files for this project.",
+      "materialKinds": ["image", "video", "audio", "document", "data", "canvas"]
+    }
+  ],
+  "tools": [
+    {
+      "id": "pipeline-versions",
+      "label": "Version browser",
+      "kind": "versions",
+      "description": "Compare, clone, and explicitly attach non-overwriting outputs.",
+      "target": "versions"
+    },
+    {
+      "id": "pipeline-library",
+      "label": "Material library",
+      "kind": "library",
+      "description": "Search and filter all collected project material.",
+      "target": "library"
+    }
+  ],
+  "attachments": [
+    {
+      "projectPattern": "instagram-video-series-production",
+      "surfaces": ["episodes", "pipeline-materials"],
+      "tools": ["pipeline-versions", "pipeline-library"],
+      "bindings": {}
+    },
+    {
+      "projectPattern": "content-pipeline-audio-library",
+      "surfaces": ["pipeline-materials"],
+      "tools": ["pipeline-versions", "pipeline-library"],
+      "bindings": {}
+    }
+  ]
+}
